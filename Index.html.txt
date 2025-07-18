@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SLIME STORE</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #0f0f0f;
+      color: white;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #39ff14;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      letter-spacing: 2px;
+      color: #39ff14;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .product {
+      border: 1px solid #333;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      background-color: #1a1a1a;
+    }
+    .product img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 8px;
+    }
+    .product h2 {
+      margin-top: 0;
+      color: #39ff14;
+    }
+    .price {
+      color: #ff55ff;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #333;
+      background-color: #111;
+    }
+    a {
+      color: #00ffff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🧢 SLIME STORE</h1>
+    <p>เสื้อและหมวกสไตล์ฮิปฮอปสุดลิมิเต็ด</p>
+  </header>
+
+  <section>
+    <h2>🧢 หมวก</h2>
+
+    <div class="product">
+      <h2>1. BLACK SLIME</h2>
+      <p class="price">ราคา: 390 บาท</p>
+    </div>
+
+    <div class="product">
+      <h2>2. GREEN VENOM</h2>
+      <p class="price">ราคา: 550 บาท</p>
+    </div>
+
+    <div class="product">
+      <h2>3. [หมวกใบที่ 3]</h2>
+      <p class="price">ราคา: [เพิ่มชื่อ/ราคาได้เลย]</p>
+    </div>
+
+    <h2>👕 เสื้อ</h2>
+
+    <div class="product">
+      <h2>1. NEO SLIME 55</h2>
+      <img src="https://raw.githubusercontent.com/eskiimo92000/slime-store/main/6BDA0958-63DB-4E56-8B82-87DC7D93BCDB.png" alt="NEO SLIME 55" />
+      <p class="price">ราคา: 790 บาท</p>
+    </div>
+
+    <div class="product">
+      <h2>2. PINK VENOM 55</h2>
+      <p class="price">ราคา: 890 บาท</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>📲 ติดต่อผ่าน Instagram: <a href="https://instagram.com/snowww_store" target="_blank">@snowww_store</a></p>
+  </footer>
+</body>
+</html>
